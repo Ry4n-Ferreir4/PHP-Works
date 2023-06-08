@@ -9,7 +9,7 @@
 <body>
     <?php
     // Conexão com o banco de dados
-    $conn = mysqli_connect("127.0.0.1", "root", "15351TT", "login");
+    $conn = mysqli_connect("[SEU-IP]", "[NOME-USUARIO-DB]", "[SENHA-DB]", "[NOME-TABELA-LOGIN]");
     
     // Verifica se ocorreu um erro na conexão
     if (!$conn) {
