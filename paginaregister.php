@@ -1,6 +1,6 @@
 <?php
-    include('nav.html');
     session_start();
+    include('nav.html');
 ?>
 
 <!DOCTYPE html>
@@ -13,26 +13,13 @@
     <title>Sistema de Login - PHP + MySQL - Canal TI</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/Registerstyle.css">
 </head>
 
 <body>
-   
-<?php
-    if(isset($_SESSION['nao_autenticado'])):
- ?>
-    <div class="notification is-danger">
-      <p>ERRO: Usuário ou senha inválidos.</p>
-        </div>
-        <?php
-
-        endif;
-        unset($_SESSION['nao_autenticado']);
-         ?>
-                   <div class="container">
-                         <h2>Login</h2>
-                         <form action="login.php" method="POST">
+<div class="container">
+                        <h2>Register</h2>
+                        <form action="register.php" method="POST">
                                  <div class="form-group">
                                      <label for="username">Username:</label>
                                      <input name="usuario" name="text" id="username" name="username" required>
