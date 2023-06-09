@@ -47,8 +47,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['new_password'])) {
         <br>
         <input type="submit" value="Mudar Senha">
     </form>
-
-    <h2>Sair</h2>
-    <p><a href="logout.php">Clique aqui para sair</a></p>
 </body>
 </html>

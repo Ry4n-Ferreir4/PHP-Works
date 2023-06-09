@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="pt-bt">
 <head>
@@ -8,10 +11,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Bem vindo ao Meu site</h1>
+        <h1>Sistema Basico de Login e Register</h1>
         <div class="button-group">
-            <a href="https://github.com/Ry4n-Ferreir4" target="_blank">Github</a>
-            <a>Sistema de Register/Login</a>
+            <a href="paginalogin.php">Sistema de Register/Login</a>
         </div>
     </div>
 </body>

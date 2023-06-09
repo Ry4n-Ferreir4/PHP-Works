@@ -14,7 +14,8 @@
         // Insere os valores no banco de dados
         $sql = "insert into usuario(usuario, senha) values('$username',md5('$password'))";
         if (mysqli_query($conexao , $sql)) {
-            header('Location: index.php');
+            $_SESSION['usuario'] = $username;
+            header("Location: painel.php");
         } else {
             echo "Erro ao criar o registro: " . mysqli_error($conexao);
         }

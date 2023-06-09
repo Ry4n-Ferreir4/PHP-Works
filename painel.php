@@ -21,6 +21,7 @@ include('verifica_login.php');
     <h2>Opções:</h2>
     <a class="btn" href="mudar_senha.php">Mudar Senha</a>
     <a class="btn" href="logout.php">Sair</a>
+    <a class="btn" href="deleteuser.php">Deletar Usuario</a>
   </div>
 
 </body>
